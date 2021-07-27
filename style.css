@@ -2,15 +2,18 @@
 
     display: flex;
     justify-content: space-between ;
-    background-color:lightcoral;
+    background-color:#f08080;
+    padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
-    color: white;
+    color: #FFFFFF;
+
 }
 body {
-    background-color:floralwhite;
+    background-color:#FFFAF0;
     font-style: italic;
+    margin: 0px;
 }
 .grid {
     display: flex;
@@ -19,14 +22,16 @@ body {
 }
 
 .grid img{
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 50px;
 }
 
 .origami{
     border-radius: 20px;
     border-style:ridge;
-    background-color: lavender;
+    background-color: #E6E6FA;
+    padding: 30px;
+    margin: 25px;
 
     width: 310px;
     font-family: Georgia, 'Times New Roman', Times, serif;
