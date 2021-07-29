@@ -10,10 +10,15 @@
     color: #FFFFFF;
 
 }
-body {
-    background-color:#FFFAF0;
-    font-style: italic;
-    margin: 0px;
+
+body{
+        background-color:#FFFAF0;
+        font-style: italic;
+        margin: 0px;   
+}
+
+a:visited{
+    color:black;
 }
 .grid {
     display: flex;
@@ -28,7 +33,7 @@ body {
 
 .origami{
     border-radius: 20px;
-    border-style:ridge;
+    border-style:inset;
     background-color: #E6E6FA;
     padding: 30px;
     margin: 25px;
@@ -38,3 +43,6 @@ body {
 
 }
 
+.origami:hover{
+    transform: scale(1.2);
+}
